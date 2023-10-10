@@ -30,6 +30,15 @@
     padding: 0.25rem 1rem;
 }
 
+#navLinks li a {
+    text-decoration: none;
+    color: black;
+}
+
+#navLinks li a:hover {
+    color: rgb(112, 105, 105);
+}
+
 #mainContent {
     margin: 2rem;
 }
