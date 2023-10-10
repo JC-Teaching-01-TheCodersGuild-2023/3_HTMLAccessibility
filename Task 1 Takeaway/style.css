@@ -55,9 +55,19 @@ tfoot td {
   border: 2px solid purple;
 }
 
+tfoot td:nth-child(1) {
+  text-align: right;
+}
+
 caption {
   caption-side: bottom;
   font-family: 'Rock Salt', cursive;
   text-align: right;
   padding: 15px;
+}
+
+footer {
+  text-align: right; 
+  margin-top: 10px;
+  font-family: 'Rock Salt', cursive;
 }
