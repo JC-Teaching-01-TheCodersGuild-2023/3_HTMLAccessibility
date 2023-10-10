@@ -8,8 +8,8 @@
     <title>Task 1 - Question</title>
 </head>
 <body>
-    <header id="header" role="banner"> <!-- is a role="banner" only in body context -->
-        <nav id="main-nav" role="navigation" class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <div id="header">
+        <div id="main-nav">
             <a class="navbar-brand" href="#">Navbar</a>
             <button class="navbar-toggler" type="button" 
                             data-toggle="collapse" data-target="#navbarsExampleDefault" 
@@ -42,10 +42,10 @@
                     </li>
                 </ul>
             </div>
-        </nav>
-    </header>
+        </div>
+    </div>
 
-    <section id="wr-content">
+    <div id="wr-content">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-md-9">
@@ -79,12 +79,12 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
-    <footer id="footer" class="footer" role="contentinfo">  <!-- is a role="contentinfo" only in body context -->
+    <div id="footer">  <!-- is a role="contentinfo" only in body context -->
         <div class="container">
             <span class="text-muted">Place sticky footer content here.</span>
         </div>
-    </footer>
+    </div>
 </body>
 </html>
