@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="./style.css">
+    <title>Task 1 - Answer</title>
+</head>
+<body>
+    <header id="header" role="banner"> <!-- is a role="banner" only in body context -->
+        <nav id="main-nav" role="navigation" class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" 
+                            data-toggle="collapse" data-target="#navbarsExampleDefault" 
+                            aria-controls="navbarsExampleDefault" aria-expanded="false" 
+                            aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+            <div id="navbarsExampleDefault" class="collapse navbar-collapse">
+                <ul id="main-menubar" role="menubar" class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a href="#" role="menuitem" tabindex="0" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" role="menuitem" tabindex="-1" class="nav-link" title="">Link 2</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                                id="dropdown01" class="nav-link dropdown-toggle" 
+                                href="http://example.com" title="">
+                            Dropdown 1
+                        </a> 
+                        <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a href="#" role="menuitem" class="dropdown-item" title="">Dropdown Link 1</a>
+                <a href="#" role="menuitem" class="dropdown-item" title="">Dropdown Link 2</a>
+                <a href="#" role="menuitem" class="dropdown-item" title="">Dropdown Link 3</a>
+            </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" role="menuitem" tabindex="-1" class="nav-link" title="">Link 3</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="wr-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-9">
+                    <main role="main" class="container">
+                        <div id="main-banner" role="banner">
+                            <img src="" alt="">
+                        </div>
+                        <div class="post" role="article">
+                            <h1>Bootstrap starter template</h1>
+                            <p class="lead">
+                                Use this document as a way to quickly start any new project.<br>
+                                All you get is this text and a mostly barebones HTML document.
+                            </p>
+                        </div>
+                    </main>
+                </div>
+                <div class="col-xs-12 col-md-3">
+                    <aside role="complementary">
+                        <div id="aside-menu" role="menu" class="list-group">
+                                <a href="#" role="menuitem" tabindex="-1" title="" 
+                                        class="list-group-item list-group-item-action">Link 1</a>
+                                <a href="#" role="menuitem" tabindex="-1" title="" 
+                                        class="list-group-item list-group-item-action">Link 2</a>
+                                <a href="#" role="menuitem" tabindex="-1" title="" 
+                                        class="list-group-item list-group-item-action">Link 3</a>
+                        </div>
+                        <div id="aside-banner" role="banner">
+                            <img src="" alt="">
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer" role="contentinfo">  <!-- is a role="contentinfo" only in body context -->
+        <div class="container">
+            <span class="text-muted">Place sticky footer content here.</span>
+        </div>
+    </footer>
+</body>
+</html>
