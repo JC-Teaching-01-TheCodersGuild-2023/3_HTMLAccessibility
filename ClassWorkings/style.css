@@ -1,7 +1,7 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 main {
@@ -21,13 +21,16 @@ img {
   border-radius: 15px;
 }
 
-#demo1, #demo2, #demo3 {
+#demo1,
+#demo2,
+#demo3 {
   width: 500px;
   margin: 0px auto;
 }
 
 #demo2 {
   padding: 50px;
-  background-color: rgb(172, 200, 229); color: rgb(38, 27, 71);
+  background-color: rgb(172, 200, 229);
+  color: rgb(38, 27, 71);
   border-radius: 15px;
 }
